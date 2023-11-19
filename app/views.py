@@ -8,7 +8,7 @@ from vision import GPT_Vision
 
 
 
-app.config.from_object('config.DevelopmentConfig')  # Assuming your config is in a file named 'config.py'
+app.config.from_object('config.DevelopmentConfig') 
 
 @app.route("/", methods=["GET", "POST"])
 def index():
